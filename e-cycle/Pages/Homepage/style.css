@@ -85,30 +85,77 @@ a {
 
 .recycle-area{
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
+
 .left-float1{
   float:left;
-  text-align: center;
-  margin-top: 100px;
+  text-align:left;
+  margin-top:10em;
+  margin-left: 2em;
  
+}
+#environment{
+  font-weight:bolder;
+  color:#034402;
+  font-size:larger;
+  
+  
+}
+
+.left-float1 h2{
+ margin-bottom: 30px;
+ font-size:medium ;
+ size: 40px;
+}
+
+.join-now{
+   padding: 15px 30px;
+  background-color: #034402;
+  color: white;
+  border-radius: 10px;
 }
 
 .right-float1{
   position: relative;
   float:right;
   height: 50vh;
+  margin-left: 380px;
+  margin-top: 50px;
   }
 
+  
+
   .plastic-design{
-    position:relative;
+    position:absolute;
     margin-bottom: 90px;
-    margin-left: 100px;
+    margin-left: -180px;
   }
 
   .map2{
-    height: 80vh;
+    height: 70vh;
   }
+.news{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-color: #18A0FB;
+  width: 70vw;
+  padding: 20px 20px ;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  border-radius: 10px;
+  color: white;
+}
+form{
+  height: 100%;
+}
+#submit-button{
+  padding: 10px 15px;
+  background-color: #034402;
+  color: white;
+  border-radius: 5px;
+}
 
 footer{
   background-color: rgba(3, 29, 9, 0.8);
