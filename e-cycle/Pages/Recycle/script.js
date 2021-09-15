@@ -1,3 +1,24 @@
+document.getElementById("upload-btn").addEventListener("click", function(){
+    document.getElementsByClassName("request")[0].classList.add("active-request");
+});
+
+
+document.getElementById("cancel-btn").addEventListener("click", function(){
+    document.getElementsByClassName("request")[0].classList.remove("active-request");
+});
+document.getElementById("submit-btn").addEventListener("click", function(){
+    document.getElementsByClassName("request")[0].classList.remove("active-request");
+});
+
+document.getElementById("submit-btn").addEventListener("click", function(){
+    document.getElementsByClassName("success")[0].classList.add("active-success");
+});
+document.getElementById("okay-btn").addEventListener("click", function(){
+    document.getElementsByClassName("success")[0].classList.remove("active-success");
+});
+
+
+
 const showMenu = (toggleId, navbarId, bodyId) => {
     const toggle = document.getElementById(toggleId),
     navbar = document.getElementById(navbarId),
