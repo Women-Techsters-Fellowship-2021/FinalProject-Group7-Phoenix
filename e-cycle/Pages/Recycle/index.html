@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Recycle</title>
+</head>
+<body class="body-pd">
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <div class="right-nav">
+                    <ul>
+                        <li class="sidenav">
+                            <a href="">Funmi Aiyna</a>
+                        </li>
+                        <li class="sidenav">
+                            <a href=""><img src="../../Images/Profile-black.svg" alt=""></a>
+                        </li>
+                        <li class="sidenav">
+                            <a  href=""><img src="../../Images/Alarm-black.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="sidebar-container" id="navbar">
+        <nav class="nav">
+            <div id="nav-logo">
+                <ion-icon name="menu-outline" class="nav--toggle" id="nav-toggle"></ion-icon>
+                <a id="logo" href=""><img src="../../Images/eRecycle.svg" alt=""></a>
+            </div>
+
+            <div class="nav-list">
+                <a href="../Dashboard/index.html" class="nav-link">
+                    <img src="../../Images/Dashboard-black.svg" alt="">
+                    <span class="nav-name">Dashboard</span>
+                </a>
+                <a href="#" class="nav-link active">
+                    <img src="../../Images/Recycle-black.svg" alt="">
+                    <span class="nav-name">Recycle</span>
+                </a>
+                <a href="../CollectionSite/index.html" class="nav-link">
+                    <img src="../../Images/Collection-site-black.svg" alt="">
+                    <span class="nav-name">Collection Site</span>
+                </a>
+                <a href="../Newsletter/index.html" class="nav-link">
+                    <img src="../../Images/Newsletter-black.svg" alt="">
+                    <span class="nav-name">Newsletter</span>
+                </a>
+                <a href="../Setting/index.html" class="nav-link">
+                    <img src="../../Images/Setting.svg" alt="">
+                    <span class="nav-name">Settings</span>
+                </a>
+                <a href="../Homepage/index.html" class="nav-link" id="logout">
+                    <img src="../../Images/Log-out-black.svg" alt="">
+                    <span class="nav-name">Log Out</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <div class="dashboard">
+            <div class="rectangle">
+                <!-- <input type="text"> -->
+            </div>
+
+            <div class="upload-capture">
+
+                <div>
+                    <!-- <a id="" href=""><img src="../../Images/Camera-white.svg" alt=""></a> -->
+                    <button class="capture"><a id="" href=""><img src="../../Images/Camera-white.svg" alt=""></a>Capture</button>
+                </div>
+                <div>
+                    <!-- <a id="" href=""><img src="../../Images/Add-banner.svg" alt=""></a> -->
+                    <button class="upload" id="upload-btn" ><img src="../../Images/Upload-white.svg" alt="">Upload Picture</button>
+                </div>
+            </div>          
+        </div>
+        
+        <div class="request">
+            <div class="request-title">
+                <h4>Recycle Request Information</h4>
+            </div>
+            <div class="request-details">
+                <p>Where would you like your items picked?</p>
+    
+                <input type="radio"> Home</input><br>
+                <input type="radio"> Collection Site</input>
+                <div class="button">
+                    <button id="cancel-btn">Cancel</button>
+                    <button class="submit" id="submit-btn" type="submit">Submit</button>
+                </div>    
+            </div>
+        </div>
+        <div class="success">
+            <div class="image">
+                <img src="../../Images/Success-image.svg" alt="">
+            </div>
+            <p>You’ve successfully made a recycle request</p>
+            <button id="okay-btn">Okay</button>
+        </div>
+    </main>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
