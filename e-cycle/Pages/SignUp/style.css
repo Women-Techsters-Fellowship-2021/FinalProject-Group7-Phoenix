@@ -23,6 +23,13 @@ body {
 }
 
 
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
 .container .back
     {  
     position: relative;

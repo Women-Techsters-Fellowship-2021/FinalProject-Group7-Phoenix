@@ -59,6 +59,10 @@ nav li a{
     margin-bottom: 90px;   
 }
 
+#logo:hover {
+    background: none;
+}
+
 .nav-logo {
     display: inline-flex;
 }
@@ -201,17 +205,22 @@ main {
     margin-left: 60px;
 }
 
-p .request-date {
-    float: right;
+.request-title {
+    margin-right: 100px;
 }
 
 .recycle-transaction {
-    
+    margin-left: 80px;
     background: #FCFDFC;
     box-shadow: 0px 1px 8px rgba(10, 122, 34, 0.16);
     border-radius: 5px;
 }
 
+
+.cancel button {
+    padding: 8px 15px;
+    margin-left: 60px;
+} 
 
 @media screen and (min-width: 1024px) {
     .nav-toggle {

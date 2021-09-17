@@ -57,6 +57,10 @@ nav li a{
     margin-bottom: 90px;   
 }
 
+#logo:hover {
+    background: none;
+}
+
 .nav-logo {
     display: inline-flex;
 }

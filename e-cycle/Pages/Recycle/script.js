@@ -41,3 +41,81 @@ function colorLink() {
     this.classList.addEventListener('active')
 }
 linkColor.forEach(l => l.addEventListener('click', colorLink))
+
+
+
+const defaultBtn = document.querySelector("#default-btn");
+const customBtn = document.querySelector("#custom-btn");
+const img = document.querySelector("img")
+
+function defaultBtnActive() {
+    defaultBtn.click()
+}
+
+defaultBtn.addEventListener("change", function(){
+    const file = this.files[0];
+    if(file) {
+        const reader = new FileReader();
+        reader.onload = function() {
+            const result = reader.result;
+            img.src = result;
+        }
+
+        reader.readAsDataURL(file)
+    }
+
+    if(this.value) {
+        let valueStore = this.value;
+        fileName.textContent = valueStore;
+    }
+
+   
+})
+
+
+
+
+
+
+
+
+
+
+
+// const video = document.getElementById('video');
+// const canvas = document.getElementById('canvas');
+// const snap = document.getElementById('snap');
+// const errorMsElement = document.getElementById('span#ErrorMsg');
+
+// const constraints = {
+//     audio : true;
+//     video: {
+//         width: 1280, 
+//         height: 720
+//     }
+// };
+
+// async function init() {
+//     try{
+//         const stream = await navigator.mediaDevices.getMedia(constraints);
+//         handleSuccess(stream);
+//     }
+//     catch(e) {
+//         errorMsElement.innerHTML = `naviator.getUserMedia.error:${e.toString()}`;
+
+//     }
+// }
+
+
+
+// function handleSuccess(stream) {
+//     window.stream = stream;
+//     video.srcObject = stream
+// }
+
+// init();
+
+// var context = canvas.getContext('2d');
+snap.addEventListener("click", function() {
+    context.drawImage(video, 0, 0, 640, 480);
+})

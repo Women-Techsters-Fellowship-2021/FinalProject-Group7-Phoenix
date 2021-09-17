@@ -34,7 +34,7 @@
         <nav class="nav">
             <div id="nav-logo">
                 <ion-icon name="menu-outline" class="nav--toggle" id="nav-toggle"></ion-icon>
-                <a id="logo" href=""><img src="../../Images/eRecycle.svg" alt=""></a>
+                <a id="logo" href="../Homepage/index.html"><img src="../../Images/eRecycle.svg" alt=""></a>
             </div>
 
             <div class="nav-list">
@@ -68,16 +68,25 @@
 
     <main>
         <div class="dashboard">
-            <div class="rectangle">
-                <!-- <input type="text"> -->
+            <div class="rectangle"> 
+                <div id="image">
+                    <img src="" alt="">
+                </div>
+                <img  src="../../Images/Upload-grey.svg" alt="">
+                <input id="default-btn" type="file" hidden>
+                <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
             </div>
 
             <div class="upload-capture">
 
-                <div>
+                <!-- <div class="video-wrap">
+                    <video src="" id="video"></video>
+                </div> -->
+                <div class="controller">
                     <!-- <a id="" href=""><img src="../../Images/Camera-white.svg" alt=""></a> -->
-                    <button class="capture"><a id="" href=""><img src="../../Images/Camera-white.svg" alt=""></a>Capture</button>
+                    <button id="snap" class="capture"><a id="" href=""><img src="../../Images/Camera-white.svg" alt=""></a>Capture</button>
                 </div>
+                <!-- <canvas id="canvas" width="640" height="480"></canvas> -->
                 <div>
                     <!-- <a id="" href=""><img src="../../Images/Add-banner.svg" alt=""></a> -->
                     <button class="upload" id="upload-btn" ><img src="../../Images/Upload-white.svg" alt="">Upload Picture</button>

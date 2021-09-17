@@ -66,6 +66,11 @@ text-align: left;
 justify-content: left;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 
 .form--hidden {
