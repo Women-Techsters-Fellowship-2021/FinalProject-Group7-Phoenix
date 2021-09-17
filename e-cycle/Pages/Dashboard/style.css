@@ -297,7 +297,7 @@ main {
         background: rgba(28, 126, 24, 0.47);
     }
 
-    .card, 
+    /* .card, 
     .history-content {
         display: grid;
     }
@@ -323,6 +323,6 @@ main {
     .history-title {
         font-size: 25px;
         margin-bottom: 10px;
-    }
+    } */
     
 }
