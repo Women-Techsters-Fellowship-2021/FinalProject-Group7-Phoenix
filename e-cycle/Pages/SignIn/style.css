@@ -136,10 +136,10 @@ a {
 }
 
 
-.form__button {
+.login-btn{
     margin-bottom:20px ;
     width: 120%;
-    padding: 1rem 4rem;
+    padding: 0.7rem 11rem;
     font-weight: bold;
     font-size: 1.1rem;
     color: #ffffff;
@@ -150,11 +150,12 @@ a {
     background: var(--color-secondary);
 }
 
-.form__button:hover {
+
+.login-btn:hover {
     background: var(--color-primary-dark);
 }
 
-.form__button:active {
+.login-btn:active {
     transform: scale(0.98);
 }
 

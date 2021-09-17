@@ -142,10 +142,10 @@ justify-content: left;
 }
 
 
-.form__button {
-    margin-bottom:20px ;
-    width: 120%;
-    padding: 1rem 4rem;
+.signup-btn {
+    margin-left: 25px ;
+    width: 100vw;
+    padding: 1rem 7rem;
     font-weight: bold;
     font-size: 1.1rem;
     color: #ffffff;
@@ -156,11 +156,11 @@ justify-content: left;
     background: var(--color-secondary);
 }
 
-.form__button:hover {
+.signup-btn:hover {
     background: var(--color-primary-dark);
 }
 
-.form__button:active {
+.signup-btn:active {
     transform: scale(0.98);
 }
 
@@ -172,7 +172,7 @@ justify-content: left;
 .form__text1 
 {
     width: 120%;
-    margin-top: 30px; 
+    margin-top: 10px; 
     margin-bottom:20px ;  
 }   
 
