@@ -52,7 +52,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
-// function submitButton(){
-//     document.location.href="www.google.com"
-// }

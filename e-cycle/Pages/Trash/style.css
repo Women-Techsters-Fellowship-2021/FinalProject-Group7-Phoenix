@@ -21,6 +21,12 @@ ul{
   
 }
 
+nav {
+  position: fixed;
+}
+
+
+
 .nav-links{
 display: flex;
 align-items: center;

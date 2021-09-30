@@ -1,52 +1,81 @@
 <!DOCTYPE html>
-<head>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Login and Registration Form in HTML & CSS | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title> Sign Up Form</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+   </head>
 <body>
-    <div class="container">
-     
-        <div class="contentBx">
-          <div class="formBx"> 
-            <form class="form" id="login">
-              <h1 class="form__title">Get Started</h1>
-              <div class="form__message form__message--error"></div>
-
-              <div class="form__input-group">
-                <input type="email"  class="form__input" autofocus placeholder="Email" required>
-                <div class="form__input-error-message"></div>
-              </div>
-              
-              <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Password" required>
-                <div class="form__input-error-message"></div>
-              </div>
-              
-              <div class="form__text1">
-                <label class="remember"><input type="checkbox" name="">I agree to the <a href="#"> Terms & conditions </a>  and the <a href="#"> Privacy Policy </a></label>
-              </div>
-              <br><br><br>
-            
-                        
-              <a class="signup-btn" href="../Dashboard/index.html">Sign Up</a> 
-                  
-              <br/><br>
-                
-              <div>
-                <button class="form__signupBx" type="submit"><img class="form__img" src="google.png"  >Continue with Google</button>
-              </div>
-              <p class="form__text">Already have an account?
-              <a class="form__link1" href="../SignIn/index.html" >Login. </a></p>
-            </form>
-                  
-          </div> 
-                
-        </div> 
-        <div class="back"> <img src="../../Images/sign up.jpg" alt=""> </div>
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front"> 
+        <div class="text">
+          <img src="../Images/login.jpg" alt=""> 
+        </div>
       </div>
-      <script src="./script.js"></script>
+      <div class="back"> 
+        
+        <div class="text">
+          <img class="backImg" src="../Images/sign up.jpg" alt=""> 
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+      <div class="form-content">
+        <div class="signup-form">
+          <div class="title">Signup</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="First Name" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Last Name" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+              </div>
+              <a href="../SignIn/index.html" class="button input-box">
+                SignUp
+              </a>
+              <div class="text sign-up-text">Already have an account? <a href="../SignIn/index.html"><label for="flip">Login now</label></a> </div>
+            </div>
+          </form>
+        </div>
+        <div class="login-form">
+          <div class="title">Login</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+              </div>
+              <div class="text"><a href="#">Forgot password?</a></div>
+              <a href="../Dashboard/index.html" class="button input-box">
+                Login
+              </a>
+              <div class="text sign-up-text">Don't have an account? <a href="../SignUp/index.html"><label for="flip">Sigup now</label></a></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
-      
