@@ -1,142 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Home</title>
-</head>
-<body>
-
-   <!-- Navigation menu -->
-   <div class="nav-container">
-    <nav class="navb">
-      <img src="../../Images/Group 26.png" alt="">
-      <ul class="nav-links">
-      <li>
-      <a class="nav-link scrollto a" href="#">Home</a>
-      </li>
-      <li>
-      <a class="nav-link scrollto a" href="#services">Our Services</a>
-      </li>
-      <li>
-      <a class="nav-link scrollto a"href="#">About Us</a>
-      </li>
-    </ul>
-
-    <ul class="nav-links">
-      <li>
-        <a class="nav-link scrollto active" href="SignIn/index.html">Login</a>
-      </li>
-      <li>
-        <a href="SignUp/index.html" class="btn-get-started a">Get Started</a>
-      </li>
-    </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eRecycle</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"> <img src="Images/eRecycle.svg"> </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#our_service" class="navbar__links" id="services-page">Our Services</a>
+          </li>  
+          <li class="navbar__item">
+            <a href="SignIn/index.html" class="navbar__links" id="login-page">Login</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="SignUp/index.html" class="button" id="signup">Get Started</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-  </div>
 
-    <!-- Header Section -->
-     <header>
-       <div class="img-container">
-        <img id="mask" src="../../Images/Mask Group.svg" alt="">
-        <img id="bulb-img" src="../../Images/Recycle_Light_Bulb 2.svg" alt="">
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Save our planet</h1>
+        <p class="hero__description">Recycle today!</p>
+        <button class="main__btn"><a href="SignUp/index.html">Get Started</a></button>
       </div>
-    <div class="left_float">
-      <p><h1 class="title">Save our planet</h1></p>
-      <p><h1 class="title">Recycle today.</h1></p>
-      <button  class="btn-get-started"><a href="../SignIn/index.html"> Get Started</a></button>
+      <div> 
+        <!-- <img class="bulb" src="Images/Mask Group.svg"> -->
+        
+      </div>
     </div>
-    </div>
-  </header>
 
-  <div class="section-style">
-   
-  <section class="section-style" id="our_service">
-   
-   
-  <!-- ======= Services Section ======= -->
-    <div id="services" class="services-area area-padding">
-      <div class="service-title">
-        <h3>How eRecycle works:</h3>
-        <p>A quick view of what our product is all about...</p>
-      </div>
-      <div class="container">
-        <div class="one">
-          <img src="../../Images/undraw_Browsing_online_re_umsa 1.svg" alt="">
-          <h5>Manage Waste.</h5>
-          <p>Our product helps users manage their plastic waste and get paid for it!</p>
-        </div>
-        <div class="two">
-          <img src="../../Images/undraw_map_1r69 1.svg" alt="">
-          <h5>Find pick-up locations</h5>
-          <p>With our product you get to find the nearest reycling drop-off points and special waste facilities nearest to your household</p>
-        </div>
-        <div class="three">
-          <img src="../../Images/undraw_Browsing_online_re_umsa 1.svg" alt="">
-          <h5>Industry news</h5>
-          <p>Discover industry news and insights and increase your knowledge on recycling and what’s recyclable</p>
-        </div>
-        <div class="three">
-          <img src="../../Images/undraw_takeout_boxes_ap54 1.svg" alt="">
-          <h5>Eco-friendly earth</h5>
-          <p>By taking small steps we can build a lifestyle better for the environment</p>
-        </div>
-      </div>
- </section>
 
-    <!-- ======= About us Section ======= -->
+    <section class="section-style" id="our_service">
+   
+   
+      <!-- ======= Services Section ======= -->
+        <div id="services" class="services-area area-padding">
+          <div class="service-title">
+            <h3>How eRecycle works:</h3>
+            <p>A quick view of what our product is all about...</p>
+          </div>
+          <div class="container">
+            <div class="one">
+              <img src="Images/undraw_Browsing_online_re_umsa 1.svg" alt="">
+              <h5>Manage Waste.</h5>
+              <p>Our product helps users manage their plastic waste and get paid for it!</p>
+            </div>
+            <div class="two">
+              <img src="Images/undraw_map_1r69 1.svg" alt="">
+              <h5>Find pick-up locations</h5>
+              <p>With our product you get to find the nearest reycling drop-off points and special waste facilities nearest to your household</p>
+            </div>
+            <div class="three">
+              <img src="Images/undraw_Browsing_online_re_umsa 1.svg" alt="">
+              <h5>Industry news</h5>
+              <p>Discover industry news and insights and increase your knowledge on recycling and what’s recyclable</p>
+            </div>
+            <div class="three">
+              <img src="Images/undraw_takeout_boxes_ap54 1.svg" alt="">
+              <h5>Eco-friendly earth</h5>
+              <p>By taking small steps we can build a lifestyle better for the environment</p>
+            </div>
+          </div>
+     </section>
+
+
+    <!-- Features Section -->
     <section class="section-style">
-    <div id="recycle" class="recycle-area">
-      <div class="left-float1">
-        <h1 id="environment" >For a safer environment</h1>
-        <p class="h2-text">Join our team of partners to say no to plastic waste</p>
-        <p><a class="join-now" href="#">Join Now</a></p>
+      <div id="recycle" class="recycle-area">
+        <div class="left-float1">
+          <h1 id="environment" >For a safer environment</h1>
+          <p class="h2-text">Join our team of partners to say no to plastic waste</p>
+          <p><a class="join-now" href="#">Join Now</a></p>
+        </div>
+        <div class="right-float1">
+          <img class="plastic-design" src="Images/Plastic 03 1.svg" alt="Image of plastic">
+          <img class="map2" src="Images/Vector.svg" alt="">
+        </div>      
+      </div> 
+
+      <div class="news" >
+        <div class="some">
+          <h2>Want to know more about recycling?</h2>
+          <h1>You're a click away</h1>
+          <h6>Be intentional in achieving an eco-friendly environment by subscribing to our newsletter</h6>
+        </div>
+        <form action="">
+          <input type="email" placeholder="Your email">
+          <button id="submit-button" type="submit">Subscribe Now</button>
+        </form>
       </div>
-      <div class="right-float1">
-        <img class="plastic-design" src="../../Images/Plastic 03 1.svg" alt="Image of plastic">
-        <img class="map2" src="../../Images/Vector.svg" alt="">
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h6>About Us</h6>
+            
+          </div>
+          <div class="footer__link--items">
+            <h6>Contact Us</h6>
+          </div>
+          <div class="footer__link--items">
+            <h6>About Us</h6>
+          </div>
+          <div class="footer__link--items">
+            <h6>FAQ</h6>
+          </div>
+          <div class="footer__link--items">
+            <h6>Our Patners</h6>
+          </div>
+        </div>
       </div>
-           
-     </div> 
-     <div class="news" >
-      <div>
-         <h2>Want to know more about recycling?</h2>
-         <h1>You're a click away</h1>
-         <h6>Be intentional in achieving an eco-friendly environment by subscribing to our newsletter</h6>
-      </div>
-       <form action="">
-        <input type="email" placeholder="Your email">
-        <button id="submit-button" type="submit">Subscribe Now</button>
-       </form>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#" id="footer__logo"><img src="Images/Group 26.svg" alt=""></a>
+          </div>
+          <p class="website__rights">© eRecycle 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a href="#" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
 
-
-  <section class="section-style">
-    <footer>
-        <img src="../../Images/Group 26.svg" alt="">
-        <nav class="footer-nav">
-          <ul>
-            <li>
-              <a href="#about-us">About us</a>
-            </li>
-            <li>
-              <a href="#">FAQ</a>
-            </li>
-            <li>
-              <a href="#">Our Partners</a>
-            </li>
-            <li>
-                <a href="#">Contact us</a>
-            </li>
-          </ul>
-          
-        </nav>
-
-        <p class="follow">Follow us</p>
-    </footer>
-</section>
-<!-- <script src="script.js"></script> -->
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
