@@ -1,0 +1,15 @@
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\bin\Debug\netcoreapp3.1\Demo.DB.deps.json
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\bin\Debug\netcoreapp3.1\Demo.DB.runtimeconfig.json
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\bin\Debug\netcoreapp3.1\Demo.DB.runtimeconfig.dev.json
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\bin\Debug\netcoreapp3.1\Demo.DB.dll
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\bin\Debug\netcoreapp3.1\Demo.DB.pdb
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\bin\Debug\netcoreapp3.1\Demo.Models.dll
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\bin\Debug\netcoreapp3.1\Demo.Models.pdb
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.csprojAssemblyReference.cache
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.AssemblyInfoInputs.cache
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.AssemblyInfo.cs
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.csproj.CoreCompileInputs.cache
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.csproj.CopyComplete
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.dll
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.pdb
+C:\SQ008\Week9\DemoAuthAPI\Demo.DB\obj\Debug\netcoreapp3.1\Demo.DB.genruntimeconfig.cache
