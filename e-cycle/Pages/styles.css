@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  background: #fff;
+  background: rgb(244, 245, 170);
   height: 80px;
   display: flex;
   color: #011601;
@@ -32,7 +32,7 @@
 }
 
 #navbar__logo {
-  background: #fff;
+  /* background: #fff; */
   /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
   background-size: 100%;
   display: flex;
@@ -61,6 +61,27 @@
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown_content a{
+float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#login-page:hover .dropdown_content{
+  display: block;
 }
 
 .navbar__btn {
@@ -357,8 +378,8 @@
 
 .services-area .container img {
   background: #ffffff;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   border-radius: 50%;
  
 }
@@ -380,8 +401,8 @@
 .one h5,
 .two h5,
 .three h5 {
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 24px;
   color: #000000;
 }
 
@@ -435,6 +456,7 @@
 
   .right-float1 .map2 {
     background: url(../Images/Vector.svg);
+    
   }
 
  
