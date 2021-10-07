@@ -649,12 +649,19 @@ main {
     color:#000000;
 }
 
+/* .upload-capture,
+.rectangle {
+    justify-content: center;
+    align-items: center;
+} */
+
 
 .upload-capture {
     /* margin-top: 60px; */
     display: flex;
     padding-top: 20px;
     /* width: 100%; */
+    
 
 }
 
@@ -796,18 +803,25 @@ button {
 
     .upload,
     .capture {
-        width: 150px;
-        height: 50px;
+        width: 220px;
+        height: 40px;
         font-size: 20px;
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-left: 90px;
+        
     }
 
-    .upload {
-        width: 230px;
-        margin-top: 50px;
-        color: red;
+    #upload-btn {
+        margin-left: 75px;
+        width: 250px;
     }
+
     
+    
+    .upload-capture {
+        display: grid;
+    }
+
     .request,
     .success {
         height: 300px;
@@ -831,6 +845,16 @@ button {
     }
 }
 
+
+/* COLLECTION CSS CODE */
+
+.collection-map {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    margin-top: 240px;
+}
 
 
 /* Setting CSS Code */

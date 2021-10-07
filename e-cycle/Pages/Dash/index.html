@@ -16,7 +16,7 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo"><img src="../Images/eRecycle.svg" alt=""></a>
+                <a href="../index.html" class="nav__logo"><img src="../Images/eRecycle.svg" alt=""></a>
                 <img src="../Images/Profile-black.svg" alt="" class="nav__img">
 
                 <img src="../Images/Alarm-black.svg" alt="" class="nav__img">
@@ -26,14 +26,14 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#home" class="nav__link active-link" id="dash">
+                    <a href="#dashboard" class="nav__link active-link" id="dash">
                         <img src="../Images/Dashboard-black.svg" alt=""  class="nav__icon">
                         <span class="nav__name">Dashboard</span>
                     </a>
                 </li>
                 
                 <li class="nav__item">
-                    <a href="#about" class="nav__link">
+                    <a href="#recycle" class="nav__link">
                         <img src="../Images/Recycle.svg" alt="" class="nav__icon">
                         <!-- <i class='bx bx-user nav__icon'></i> -->
                         <span class="nav__name">Recycle</span>
@@ -41,7 +41,7 @@
                 </li>
 
                 <li class="nav__item">
-                    <a href="#skills" class="nav__link">
+                    <a href="#collection" class="nav__link">
                         <img src="../Images/Collection-site-black.svg" alt="" class="nav__icon">
                         <!-- <i class='bx bx-book-alt nav__icon'></i> -->
                         <span class="nav__name">Collection Site</span>
@@ -49,7 +49,7 @@
                 </li>
 
                 <li class="nav__item">
-                    <a href="#portfolio" class="nav__link">
+                    <a href="#newsletter" class="nav__link">
                         <img src="../Images/Newsletter-black.svg" alt="" class="nav__icon" >
                         <!-- <i class='bx bx-briefcase-alt nav__icon'></i> -->
                         <span class="nav__name">Newsletter</span>
@@ -57,14 +57,14 @@
                 </li>
 
                 <li class="nav__item">
-                    <a href="#contactme" class="nav__link">
+                    <a href="#setting" class="nav__link">
                         <img src="../Images/Setting.svg" alt="" class="nav__icon">
                         <!-- <i class='bx bx-message-square-detail nav__icon'></i> -->
                         <span class="nav__name">Setting</span>
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="#contactme" class="nav__link">
+                    <a href="../index.html" class="nav__link">
                         <img src="../Images/Log-out-black.svg" alt="" class="nav__icon">
                         <!-- <i class='bx bx-message-square-detail nav__icon'></i> -->
                         <span class="nav__name">Log Out</span>
@@ -74,8 +74,8 @@
         </div>
 
         <main>
-            <!--=============== HOME ===============-->
-            <section class="container section section__height" id="home">
+            <!--=============== DASHBOARD ===============-->
+            <section class="container section section__height" id="dashboard">
                 <h2 class="section__title">Dashboard</h2>
                 <div class="dashboard">
                     <div class="dashboard-title">
@@ -234,15 +234,15 @@
                 </div>
             </section>
 
-            <!--=============== ABOUT ===============-->
-            <section class="container section section__height" id="about">
+            <!--=============== RECYCLE ===============-->
+            <section class="container section section__height" id="recycle">
                 <h2 class="section__title">Recycle</h2>
                 <div class="dashboard">
                     <div class="rectangle"> 
                         <div id="image">
-                            <img src="" alt="">
+                            <img src="../Images/Upload-grey.svg" alt="">
                         </div>
-                        <img  src="../Images/Upload-grey.svg" alt="">
+                        <!-- <img  src="../Images/Upload-grey.svg" alt=""> -->
                         <input id="default-btn" type="file" hidden>
                         <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
                     </div>
@@ -259,7 +259,7 @@
                         <!-- <canvas id="canvas" width="640" height="480"></canvas> -->
                         <div>
                             <!-- <a id="" href=""><img src="../../Images/Add-banner.svg" alt=""></a> -->
-                            <button class="upload" id="upload-btn" ><img src="../Images/Upload-white.svg" alt="">Upload Picture</button>
+                            <button class="upload" id="upload-btn" ><img src="../Images/Upload-white.svg" alt="">Upload Collection</button>
                         </div>
                     </div>          
                 </div>
@@ -288,8 +288,8 @@
                 </div>
             </section>
 
-            <!--=============== SKILLS ===============-->
-            <section class="container section section__height" id="skills">
+            <!--=============== COLLECTION ===============-->
+            <section class="container section section__height" id="collection">
                 <h2 class="section__title">Collection Site</h2>
                 <div class="dashboard">
                     <div class="collection-map">
@@ -300,8 +300,8 @@
                 </div>
             </section>
 
-            <!--=============== PORTFOLIO ===============-->
-            <section class="container section section__height" id="portfolio">
+            <!--=============== NEWSLETTER ===============-->
+            <section class="container section section__height" id="newsletter">
                 <h2 class="section__title">Newsletter</h2>
                 <div class="dashboard">
                     <div class="news-header">
@@ -359,8 +359,8 @@
                 </div>
             </section>
 
-            <!--=============== CONTACTME ===============-->
-            <section class="container section section__height" id="contactme">
+            <!--=============== SETTING ===============-->
+            <section class="container section section__height" id="setting">
                 <h2 class="section__title">Setting</h2>
             </section>
             <div class="dashboard">
@@ -375,7 +375,7 @@
                             <img src="../Images/Circle.svg" alt="">
                         </div>
                         <div class="">
-                            <button class="upload">Upload</button>
+                            <button class="upload" >Upload</button>
                             <button class="remove">Remove Picture</button>
                         </div>
                     </div>
