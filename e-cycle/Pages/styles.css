@@ -11,7 +11,7 @@
   height: 80px;
   display: flex;
   color: #011601;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
@@ -88,8 +88,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
-  width: 100%;
+  /* padding: 0 1rem; */
+  /* width: 100%; */
 }
 
 .button {
@@ -98,8 +98,6 @@
   align-items: center;
   text-decoration: none;
   padding: 10px 20px;
-  height: 100%;
-  width: 100%;
   border: 1px;
   outline: none;
   border-radius: 4px; 
@@ -118,7 +116,7 @@
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 860px) {
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -148,7 +146,7 @@
   }
 
   .navbar__menu.active {
-    background: #1f6d1e;
+    background: #ffffff;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -256,11 +254,12 @@
 
 @media screen and (max-width: 768px) {
   .hero__heading {
-    font-size: 60px;
+    padding-top: 80px;
+    font-size: 40px;
   }
 
   .hero__description {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .right_float_bulb {
@@ -341,7 +340,7 @@
  
 
 .services-area .container {
-  height:80vh;
+  height:50vh;
   margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -429,11 +428,22 @@
 @media screen and (max-width: 1300px) {
   .services-area .container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+    height: auto;
   }
+
+  
+
 }
 @media screen and (max-width: 1100px) {
   .services-area .container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .recycle-area{
+  height: auto;
+  max-width: 100%;
+ 
   }
   .left-float1 {
     float: left; 
@@ -442,14 +452,15 @@
   }
 
   .left-float1 #environment { 
-    font-size: 30px;
+    font-size: 20px;
     line-height: 36px;
   }
 
-  .left-float1 .h2-text {
+  .left-float1 .h1-text {
+    margin-top: 0px;
     font-size: 18px;
     line-height: 15px; 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   p .join-now {
@@ -457,7 +468,10 @@
     text-decoration: none;
   }
   .right-float1 {
-    display: none;
+    float:left;
+    max-width: 100%;
+    height: auto;
+    /* display: none; */
   }
 
   .right-float1 .map2 {
@@ -465,20 +479,29 @@
     
   }
 
- 
+  section .user_area h3{
+    font-size: 30px;
+    font-weight: 50px;
 
+  }
+  .user_area{
+    margin-bottom: 0px;
+  }
+  
 
-
-  section .news{
+  section .news_section{
+    
     display: grid;
-    background-color: #18A0FB;
-    width: 98vw; 
+    /* height: 100%; */
+    /* background-color: #18A0FB; */
+    width: 100vw; 
+    height: auto;
     margin: 5px;
     border-radius: 32px;
     color: white;
   }
   
-  .news form {
+  .news_section form {
     padding-top: 20px;
   }
 }
@@ -527,21 +550,39 @@
     display: none;
   }
 
-  .right-float1 .map2 {
-    background: url(../Images/Vector.svg);
-    
+  .user_container{
+    margin-bottom: 0px;
+  }
+  .user_title{
+    font-size: 5px;
+    font-weight: 50px;
+
   }
 
-  section .news{
+  /* .right-float1 .map2 {
+    background: url(../Images/Vector.svg);
+    
+  } */
+
+  /* section .user_counter{
+    height: 100%;
+    max-width: 100%;
+  } */
+
+  section .news_section{
+    align-items: unset;
+    padding: 30px;
     display: grid;
-    background-color: #18A0FB;
-    width: 98vw; 
-    margin: 5px;
-    border-radius: 32px;
+    width: 90vw; 
     color: white;
+    background: #235789;
+    border-radius: 8px;
   }
   
-  .news form {
+  section .some{
+    font-size: 12px;
+  }
+  .news_section form {
     padding-top: 20px;
   }
 
@@ -656,7 +697,7 @@ color:  #064714;
 .user_container img {
   margin-bottom: 10px;
   width: 90%;
-  height: 90%;
+  height: 100%;
   object-fit: cover;
 
 }
@@ -684,11 +725,11 @@ margin-bottom: 150px;
   display: flex;
   justify-content:space-evenly;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: #ebe70c;
   height: 50vh;
   width: 100vw;
-  margin-bottom: 100px;
+  /* margin-bottom: 30px; */
   position: absolute;
 }
 
@@ -702,12 +743,12 @@ margin-bottom: 150px;
 
 .news_section {
   height: 50vh;
-  margin-top: 80px;
+  margin-top: 20px;
 }
-.news{
+.news_section{
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-end;
+  align-items:flex-end;
   width: 90vw;
   height: 30vh;
   padding-bottom: 60px;
@@ -831,6 +872,7 @@ form input {
 }
 
 .website__rights {
+  background-color: #08611B;
   color: #fff;
   display: flex;
   text-align: center;

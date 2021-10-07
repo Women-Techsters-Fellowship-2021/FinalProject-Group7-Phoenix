@@ -21,6 +21,7 @@
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
         </div>
+        
         <ul class="navbar__menu">
           <li class="navbar__item">
             <a href="#home" class="navbar__links" id="home-page">Home</a>
@@ -28,6 +29,10 @@
           <li class="navbar__item">
             <a href="#our_service" class="navbar__links" id="services-page">Our Services</a>
           </li> 
+
+          <li class="navbar__item">
+            <a href="#about_us" class="navbar__links" id="services-page">About us</a>
+          </li>
           
           <li class="navbar__item">
             <a href="#" class="navbar__links" id="login-page">Login <i class="fa fa-caret-down"></i> </a>
@@ -115,7 +120,7 @@
     </section>
 
       <!-- Our User Section -->
-    <section class="section-style">
+    <section class="section-style" id="about_us">
     <div class="user_area">
       <h3 class="user_title">What our users say about us</h3>
       <div class="user_container">
@@ -143,27 +148,27 @@
             <h6>CEO, Love Lagos</h6>
             <p>We've been able to scale the production of our offers from 30 generic offers to about 110 tailored offers though Superflux</p>
           </div>
-      </div>
     </div>
-    </section>
+        <div class="user_counter">
+        <img src="Images/counter1.svg" alt="">
+        <img src="Images/counter2.svg" alt="">
+        </div>
+        <div class="light_bulb">
+        <img class="bulb_left" src="Images/Recycle_Light_Bulb 4.svg" alt="">
+        <img class="bulb_right" src="Images/Recycle_Light_Bulb 4.svg" alt="">
+        </div> 
+    </div>
+  </div>
+  </section>
 
 
     <!-- Our User Counter Section -->
-<section>
-<div class="user_counter">
-<img src="Images/counter1.svg" alt="">
-<img src="Images/counter2.svg" alt="">
-</div>
-<div class="light_bulb">
-<img class="bulb_left" src="Images/Recycle_Light_Bulb 4.svg" alt="">
-<img class="bulb_right" src="Images/Recycle_Light_Bulb 4.svg" alt="">
-</div>
-
-</section>
+<!-- <section class="user_counter">
+  
+</section> -->
 
 <section>
   <div class="news_section">
-      <div class="news" >
         <div class="some">
           <h2>Want to know more about recycling?</h2>
           <h1>You're a click away</h1>
@@ -172,12 +177,12 @@
         <form action="">
           <input type="email" placeholder="Your email">
           <button id="submit-button" type="submit">Subscribe Now</button>
-        </form>
-      </div>
-    </div>
-    </section>
+        </form> 
+  </div>
+</section>
 
     <!-- Footer Section -->
+  <section>
     <div class="footer__container">
       <div class="footer__logo">
         <a href="#" id="footer__logo"><img src="Images/Group 26.svg" alt=""></a>
@@ -218,12 +223,15 @@
             <a href="/" class="social__icon--link"
               ><i class="fab fa-twitter"></i
             ></a>
-          </div>
-          
+          </div> 
         </div>
-        <p class="website__rights">© eRecycle 2021. All rights reserved</p>
       </section>
     </div>
+    <div>
+      <p class="website__rights">© eRecycle 2021. All rights reserved</p>
+    </div>
+      </section>
+    
 
     <script src="script.js"></script>
   </body>
