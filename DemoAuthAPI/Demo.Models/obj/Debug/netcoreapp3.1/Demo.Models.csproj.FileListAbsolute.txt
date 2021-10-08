@@ -1,0 +1,9 @@
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\bin\Debug\netcoreapp3.1\Demo.Models.deps.json
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\bin\Debug\netcoreapp3.1\Demo.Models.dll
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\bin\Debug\netcoreapp3.1\Demo.Models.pdb
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\obj\Debug\netcoreapp3.1\Demo.Models.csprojAssemblyReference.cache
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\obj\Debug\netcoreapp3.1\Demo.Models.AssemblyInfoInputs.cache
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\obj\Debug\netcoreapp3.1\Demo.Models.AssemblyInfo.cs
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\obj\Debug\netcoreapp3.1\Demo.Models.csproj.CoreCompileInputs.cache
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\obj\Debug\netcoreapp3.1\Demo.Models.dll
+C:\SQ008\Week9\DemoAuthAPI\Demo.Models\obj\Debug\netcoreapp3.1\Demo.Models.pdb

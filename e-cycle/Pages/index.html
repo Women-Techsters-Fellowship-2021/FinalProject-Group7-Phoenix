@@ -16,26 +16,41 @@
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo"> <img src="Images/eRecycle.svg"> </a>
+        <a href="#home" id="navbar__logo"> <img src="Images/Group 26.svg"> </a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
         </div>
+        
         <ul class="navbar__menu">
           <li class="navbar__item">
             <a href="#home" class="navbar__links" id="home-page">Home</a>
           </li>
           <li class="navbar__item">
             <a href="#our_service" class="navbar__links" id="services-page">Our Services</a>
-          </li>  
+          </li> 
+
           <li class="navbar__item">
-            <a href="SignIn/index.html" class="navbar__links" id="login-page">Login</a>
+            <a href="#about_us" class="navbar__links" id="services-page">About us</a>
           </li>
+          
+          <li class="navbar__item">
+            <a href="#" class="navbar__links" id="login-page">Login <i class="fa fa-caret-down"></i> </a>
+            <div class="dropdown_content">
+              <ul>
+                <li><a class="user_dropdown" href="SignUp">User</a></li>
+              <li> <a class="partner_dropdown" href="SignUp">Partner</a></li>
+              </ul> 
+            </div>
+          </li>
+          
+          
           <li class="navbar__btn">
             <a href="SignUp/index.html" class="button" id="signup">Get Started</a>
           </li>
         </ul>
       </div>
+      
     </nav>
 
     <!-- Hero Section -->
@@ -45,10 +60,12 @@
         <p class="hero__description">Recycle today!</p>
         <button class="main__btn"><a href="SignUp/index.html">Get Started</a></button>
       </div>
-      <div> 
-        <!-- <img class="bulb" src="Images/Mask Group.svg"> -->
+      <div class="right_float_bulb"> 
+        <img class="mask" src="Images/Mask Group.svg" alt="">
+        <img class="bulb1" src="Images/Recycle_Light_Bulb 2 (1).svg">
         
-      </div>
+        
+        </div>
     </div>
 
 
@@ -63,7 +80,7 @@
           </div>
           <div class="container">
             <div class="one">
-              <img src="Images/undraw_Browsing_online_re_umsa 1.svg" alt="">
+              <img src="Images/undraw_takeout_boxes_ap54 1.svg" alt="">
               <h5>Manage Waste.</h5>
               <p>Our product helps users manage their plastic waste and get paid for it!</p>
             </div>
@@ -90,17 +107,68 @@
     <section class="section-style">
       <div id="recycle" class="recycle-area">
         <div class="left-float1">
+          <img class="recycle_bulb" src="Images/Recycle_Light_Bulb 4.svg" alt="">
           <h1 id="environment" >For a safer environment</h1>
           <p class="h2-text">Join our team of partners to say no to plastic waste</p>
           <p><a class="join-now" href="#">Join Now</a></p>
         </div>
         <div class="right-float1">
           <img class="plastic-design" src="Images/Plastic 03 1.svg" alt="Image of plastic">
-          <img class="map2" src="Images/Vector.svg" alt="">
+          <img class="map2" src="Images/mapblur.svg" alt="">
         </div>      
       </div> 
+    </section>
 
-      <div class="news" >
+      <!-- Our User Section -->
+    <section class="section-style" id="about_us">
+    <div class="user_area">
+      <h3 class="user_title">What our users say about us</h3>
+      <div class="user_container">
+          <div class="user1">
+            <img src="Images/user1.svg" alt="">
+            <h4>Renike Adebayo</h4>
+            <h6>MD/CEO Ronak Group</h6>
+            <p>We've been able to scale the production of our offers from 30 generic offers to about 110 tailored offers though Superflex</p>
+          </div>
+          <div class="user2">
+            <img src="Images/user2.svg" alt="">
+            <h4>Bukola Ogunfayo </h4>
+            <h6>MD/CEO, Life Bank</h6>
+            <p>We've been able to scale the production of our offers from 30 generic offers to about 110 tailored offers though Superflux</p>
+          </div>
+          <div class="user3">
+            <img src="Images/user3.svg" alt="">
+            <h4>Ada Ebeano  </h4>
+            <h6>MD, ARM Pensions</h6>
+            <p>We've been able to scale the production of our offers from 30 generic offers to about 110 tailored offers though Superflux</p>
+          </div>
+          <div class="user4">
+            <img src="Images/user4.svg" alt="">
+            <h4>Muktar Musa </h4>
+            <h6>CEO, Love Lagos</h6>
+            <p>We've been able to scale the production of our offers from 30 generic offers to about 110 tailored offers though Superflux</p>
+          </div>
+    </div>
+        <div class="user_counter">
+        <img src="Images/counter1.svg" alt="">
+        <img src="Images/counter2.svg" alt="">
+        </div>
+        <div class="light_bulb">
+        <img class="bulb_left" src="Images/Recycle_Light_Bulb 4.svg" alt="">
+        <img class="bulb_right" src="Images/Recycle_Light_Bulb 4.svg" alt="">
+        </div> 
+    </div>
+  </div>
+  </section>
+
+
+    <!-- Our User Counter Section -->
+<!-- <section class="user_counter">
+  
+</section> -->
+
+<section>
+  <div class="news_section">
         <div class="some">
           <h2>Want to know more about recycling?</h2>
           <h1>You're a click away</h1>
@@ -109,24 +177,25 @@
         <form action="">
           <input type="email" placeholder="Your email">
           <button id="submit-button" type="submit">Subscribe Now</button>
-        </form>
-      </div>
-    </section>
+        </form> 
+  </div>
+</section>
 
     <!-- Footer Section -->
+  <section>
     <div class="footer__container">
+      <div class="footer__logo">
+        <a href="#" id="footer__logo"><img src="Images/Group 26.svg" alt=""></a>
+      </div>
       <div class="footer__links">
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
-            <h6>About Us</h6>
-            
+            <h6>About Us</h6> 
           </div>
           <div class="footer__link--items">
             <h6>Contact Us</h6>
           </div>
-          <div class="footer__link--items">
-            <h6>About Us</h6>
-          </div>
+          
           <div class="footer__link--items">
             <h6>FAQ</h6>
           </div>
@@ -137,11 +206,8 @@
       </div>
       <section class="social__media">
         <div class="social__media--wrap">
-          <div class="footer__logo">
-            <a href="#" id="footer__logo"><img src="Images/Group 26.svg" alt=""></a>
-          </div>
-          <p class="website__rights">© eRecycle 2021. All rights reserved</p>
           <div class="social__icons">
+            <p class="follow_us">Follow us </p>
             <a href="#" class="social__icon--link" target="_blank"
               ><i class="fab fa-facebook"></i
             ></a>
@@ -157,10 +223,15 @@
             <a href="/" class="social__icon--link"
               ><i class="fab fa-twitter"></i
             ></a>
-          </div>
+          </div> 
         </div>
       </section>
     </div>
+    <div>
+      <p class="website__rights">© eRecycle 2021. All rights reserved</p>
+    </div>
+      </section>
+    
 
     <script src="script.js"></script>
   </body>
