@@ -382,7 +382,7 @@ td {
 
 .profile-details.active-profile {
     opacity: 1;
-    transform: translate(300%, -360%) scale(1);
+    transform: translate(300%, -310%) scale(1);
     transition: transform 300m, cubic-bezier(0.18, 0.89, 0.43, 1.19)
 }
 
@@ -419,7 +419,7 @@ td {
 
 .notification-details.active-notification {
     opacity: 1;
-    transform: translate(200%, -240%) scale(1);
+    transform: translate(200%, -210%) scale(1);
     transition: transform 300m, cubic-bezier(0.18, 0.89, 0.43, 1.19)
 }
 
