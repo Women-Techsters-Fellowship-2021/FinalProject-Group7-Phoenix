@@ -119,3 +119,18 @@ defaultBtn.addEventListener("change", function(){
 snap.addEventListener("click", function() {
     context.drawImage(video, 0, 0, 640, 480);
 })
+
+
+
+document.getElementById("profile").addEventListener("click", function(){
+    document.getElementsByClassName("profile-details")[0].classList.add("active-profile");
+});
+document.getElementById("notification").addEventListener("click", function(){
+    document.getElementsByClassName("profile-details")[0].classList.remove("active-profile");
+}); 
+document.getElementById("notification").addEventListener("click", function(){
+    document.getElementsByClassName("notification-details")[0].classList.add("active-notification");
+});
+document.getElementById("profile").addEventListener("click", function(){
+    document.getElementsByClassName("notification-details")[0].classList.remove("active-notification");
+}); 
