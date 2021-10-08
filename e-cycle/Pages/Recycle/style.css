@@ -362,6 +362,9 @@ td {
     border-left: 8px solid  #064714;
 }
 
+.recycle-activity li{
+    padding: 10px;
+}
 
 
 
@@ -384,8 +387,7 @@ td {
 }
 
 
-.profile-details ul li {
-    color: 000-;
+.profile-details ul li { 
     padding: 20px 25px;
     font-family: Segoe UI;
     font-style: normal;
@@ -555,4 +557,3 @@ td {
         margin-bottom: 10px;
     } */
     
-}
