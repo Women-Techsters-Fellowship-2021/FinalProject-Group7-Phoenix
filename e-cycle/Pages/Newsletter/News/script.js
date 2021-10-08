@@ -20,3 +20,18 @@ function colorLink() {
     this.classList.addEventListener('active')
 }
 linkColor.forEach(l => l.addEventListener('click', colorLink))
+
+
+
+document.getElementById("profile").addEventListener("click", function(){
+    document.getElementsByClassName("profile-details")[0].classList.add("active-profile");
+});
+document.getElementById("notification").addEventListener("click", function(){
+    document.getElementsByClassName("profile-details")[0].classList.remove("active-profile");
+}); 
+document.getElementById("notification").addEventListener("click", function(){
+    document.getElementsByClassName("notification-details")[0].classList.add("active-notification");
+});
+document.getElementById("profile").addEventListener("click", function(){
+    document.getElementsByClassName("notification-details")[0].classList.remove("active-notification");
+}); 

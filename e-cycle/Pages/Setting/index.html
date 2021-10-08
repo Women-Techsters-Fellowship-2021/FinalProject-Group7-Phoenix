@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Setting</title>
+    <title>Dashboard</title>
 </head>
 <body class="body-pd">
     <div class="nav-container">
@@ -17,11 +17,11 @@
                         <li class="sidenav">
                             <a href="">Funmi Aiyna</a>
                         </li>
-                        <li class="sidenav">
-                            <a href=""><img src="../../Images/Profile-black.svg" alt=""></a>
+                        <li class="sidenav" id="profile">
+                            <img src="../Images/Profile-black.svg" alt="">
                         </li>
-                        <li class="sidenav">
-                            <a  href=""><img src="../../Images/Alarm-black.svg" alt=""></a>
+                        <li class="sidenav" id="notification">
+                            <img src="../Images/Alarm-black.svg" alt=""> 
                         </li>
                     </ul>
                 </div>
@@ -34,91 +34,217 @@
         <nav class="nav">
             <div id="nav-logo">
                 <ion-icon name="menu-outline" class="nav--toggle" id="nav-toggle"></ion-icon>
-                <a id="logo" href="../index.html"><img src="../../Images/eRecycle.svg" alt=""></a>
+                <a id="logo" href="../index.html"><img src="../Images/eRecycle.svg" alt=""></a>
             </div>
 
             <div class="nav-list">
-                <a href="../Dashboard/index.html" class="nav-link">
-                    <img src="../../Images/Dashboard-black.svg" alt="">
+                <a href="#" class="nav-link active">
+                    <img src="../Images/Dashboard-black.svg" alt="">
                     <span class="nav-name">Dashboard</span>
                 </a>
                 <a href="../Recycle/index.html" class="nav-link">
-                    <img src="../../Images/Recycle-black.svg" alt="">
+                    <img src="../Images/Recycle-black.svg" alt="">
                     <span class="nav-name">Recycle</span>
                 </a>
                 <a href="../CollectionSite/index.html" class="nav-link">
-                    <img src="../../Images/Collection-site-black.svg" alt="">
+                    <img src="../Images/Collection-site-black.svg" alt="">
                     <span class="nav-name">Collection Site</span>
                 </a>
                 <a href="../Newsletter/index.html" class="nav-link">
-                    <img src="../../Images/Newsletter-black.svg" alt="">
+                    <img src="../Images/Newsletter-black.svg" alt="">
                     <span class="nav-name">Newsletter</span>
                 </a>
-                <a href="#" class="nav-link active">
-                    <img src="../../Images/Setting.svg" alt="">
-                    <span class="nav-name">Settings</span>
-                </a>
-                <a href="../index.html" class="nav-link" id="logout">
-                    <img src="../../Images/Log-out-black.svg" alt="">
-                    <span class="nav-name">Log Out</span>
-                </a>
+               
             </div>
         </nav>
     </div>
 
     <main>
         <div class="dashboard">
-            <div class="profile-header">
-                <a href="#" class=" active">Profile</a>
-                <a href="./Account/index.html">Account</a>
+            <div class="dashboard-title">
+                <div >
+                    <button class="button"><img src="../Images/Recycle-white.svg" alt="">Recycle Now</button>
+                </div>
+                <div>
+                    <h4>Hello, Funmi</h4>
+                    <p>Ready to contribute to a greener world?</p>
+                </div>
+                
             </div>
-            <div class="profile-picture">
-                <p class="picture-text">Profile picture</p>
-                <div class="pictures-details">
-                    <div class="circle">
-                        <img src="../../Images/Circle.svg" alt="">
+            <div class="card">
+                <div class="wallet">
+                <!-- <img src="../Images/Group 125.svg" alt=""> -->
+                    <div class="wallet-title">
+                        <img src="../Images/Wallet.svg" alt="">
+                        <h3>Wallet</h3> 
                     </div>
-                    <div class="">
-                        <button class="upload">Upload</button>
-                        <button class="remove">Remove Picture</button>
+                    <div class="wallet-amount">
+                        <p>0.00</p>
+                    </div>
+                    <p>Redeem your points</p> 
+                </div>
+
+                <div class="plastic-no">
+                    <!-- <img src="../Images/Group 125.svg" alt=""> -->
+                    <div class="plastic-no-title">
+                        <img src="../Images/Plastic-white.svg" alt="">
+                        <h3>No. of plastic recycled</h3>
+                    </div>
+                    <div class="plastic-amount">
+                        <p>700</p>
+                    </div> 
+                </div>
+
+               
+            </div>
+            <div class="history-details">
+                <div class="history-title">History</div>
+                <div class="history-content">
+                    <div class="history-table">
+                        <table>
+                            <th>
+                                <td>S/N</td>
+                                <td>Collection site</td>
+                                <td>No. of Plastic</td>
+                                <td>Point</td>
+                                <td>Date</td>
+                            </th>
+                            <tr>
+                                <td></td>
+                                <td>1</td>
+                                <td>5, Aba Road</td>
+                                <td>200</td>
+                                <td>20</td>
+                                <td>12/02/2021</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>2</td>
+                                <td>Sabo Bus stop, 225 Herb...</td>
+                                <td>10</td>
+                                <td>1</td>
+                                <td>12/02/2021</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>3</td>
+                                <td>Location Junction, PortH...</td>
+                                <td>300</td>
+                                <td>3</td>
+                                <td>12/02/2021</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>4</td>
+                                <td>25, Ugbowo Road, Benin City</td>
+                                <td>1000</td>
+                                <td>100</td>
+                                <td>12/02/2021</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>5</td>
+                                <td>120, Iwo Road, Ibadan</td>
+                                <td>50</td>
+                                <td>5</td>
+                                <td>12/02/2021</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>6</td>
+                                <td>Gwarimpa Main Market</td>
+                                <td>5000</td>
+                                <td>500</td>
+                                <td>12/02/2021</td>
+                            </tr> 
+                            
+                        </table>
+                    </div>
+                    <div class="recycle-transaction">
+                        <div class="recycle-request">
+                            <h4 class="request-title">Upcoming Collection</h4>
+                            <p class="request-date">Tomorrow, September  22</p>
+                        </div>
+                        <div class="request-history">
+                            <div class="location-one">
+                                <img src="../Images/Remind Image.svg" alt="">
+                                <p class="h4">Location Junction,<br> PortHarcourt</h4>
+                                <p>9:00 AM — 10:00 AM</p>
+                            </div>
+                            <div class="location-two">
+                                <img src="../Images/Remind Image (1).svg" alt="">
+                                <p class="h4">Location Junction,<br> PortHarcourt</h4>
+                                <p>9:00 AM — 10:00 AM</p>
+                            </div>
+                            <div class="location-three">
+                                <img src="../Images/Remind Image (2).svg" alt="">
+                                <p class="h4">Location Junction,<br> PortHarcourt</h4>
+                                <p>9:00 AM — 10:00 AM</p>
+                            </div>
+                            
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             
-            <div class="profile-form">
-                <form >
-                    <div class="input-box">
-                        <input type="text" required>
-                        <span>Fullname</span>
+        </div>
+
+        <div class="profile-details">
+            <ul>
+                <li>
+                    <a href="../Setting/index.html"><img src="../Images/clarity_avatar-line.svg" alt="">Edit Profile</a>
+                </li>
+                <li>
+                    <a href="../Setting/Account/index.html"><img src="../Images/account-setting.svg" alt=""> Account Setting</a>
+                </li>
+                <li class="logout">
+                    <a href="../index.html"><img src="../Images/logout.svg" alt=""> Logout</a>
+                </li>
+            </ul>
+        </div>
+        <div class="notification-details">
+            <div class="notify-title">
+                <img src="../Images/Recycle.svg" alt="">
+                <h5>Notification</h5>
+                <p>14 new notifications</p>
+            </div>
+            <div>
+                
+                <div class="notify">
+                    <div><img src="../Images/Recycle.svg" alt=""></div>
+                    <div>
+                        <h6>Wallet credited with $50</h6>
+                        <p>2 hours ago</p>
                     </div>
-                    <div class="input-box">
-                        <input type="email" required>
-                        <span>Email</span>
+                </div>
+                <div class="notify">
+                    <div><img src="../Images/Recycle.svg" alt=""></div>
+                    <div>
+                        <h6>New Waste Location</h6>
+                        <p>6 hours ago</p>
                     </div>
-                    <div class="input-box">
-                        <input type="text" required>
-                        <span>Phone Number</span>
+                </div>
+                <div class="notify">
+                    <div><img src="../Images/Recycle.svg" alt=""></div>
+                    <div>
+                        <h6>New Article </h6>
+                        <p>16 hours ago</p>
                     </div>
-                    <div class="input-box">
-                        <input type="text" required>
-                        <span>Country</span>
+                </div>
+                <div class="notify">
+                    <div><img src="../Images/Recycle.svg" alt=""></div>
+                    <div>
+                        <h6>Wallet credited with $50</h6>
+                        <p>1 day ago</p>
                     </div>
-                    <div class="input-box">
-                        <input type="text" required>
-                        <span>Address</span>
-                    </div>
-                    <div class="input-box">
-                        <input type="text" required>
-                        <span>Postal Code</span>
-                    </div>
-                    <img src="../../Images/Notification.svg" alt="">
-                    <div class="input-box">
-                        <input type="submit" value="Update Profile">
-                    </div>
-                </form>
+                </div>
+                
             </div>
         </div>
     </main>
+
+    
 
 
 

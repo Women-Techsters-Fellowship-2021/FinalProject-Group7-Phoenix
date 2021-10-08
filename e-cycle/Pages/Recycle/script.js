@@ -17,6 +17,19 @@ document.getElementById("okay-btn").addEventListener("click", function(){
     document.getElementsByClassName("success")[0].classList.remove("active-success");
 });
 
+document.getElementById("profile").addEventListener("click", function(){
+    document.getElementsByClassName("profile-details")[0].classList.add("active-profile");
+});
+document.getElementById("notification").addEventListener("click", function(){
+    document.getElementsByClassName("profile-details")[0].classList.remove("active-profile");
+}); 
+document.getElementById("notification").addEventListener("click", function(){
+    document.getElementsByClassName("notification-details")[0].classList.add("active-notification");
+});
+document.getElementById("profile").addEventListener("click", function(){
+    document.getElementsByClassName("notification-details")[0].classList.remove("active-notification");
+}); 
+
 
 
 const showMenu = (toggleId, navbarId, bodyId) => {
@@ -122,15 +135,3 @@ snap.addEventListener("click", function() {
 
 
 
-document.getElementById("profile").addEventListener("click", function(){
-    document.getElementsByClassName("profile-details")[0].classList.add("active-profile");
-});
-document.getElementById("notification").addEventListener("click", function(){
-    document.getElementsByClassName("profile-details")[0].classList.remove("active-profile");
-}); 
-document.getElementById("notification").addEventListener("click", function(){
-    document.getElementsByClassName("notification-details")[0].classList.add("active-notification");
-});
-document.getElementById("profile").addEventListener("click", function(){
-    document.getElementsByClassName("notification-details")[0].classList.remove("active-notification");
-}); 
