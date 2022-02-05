@@ -12,33 +12,34 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <!-- Navbar Section -->
-    <div class="nav-container">
-      <nav class="navb">
-        <img src="Images/Group 26.svg" alt="">
-        <ul class="nav-links">
-        <li>
-        <a class="nav-link scrollto a" href="#">Home</a>
-        </li>
-        <li>
-        <a class="nav-link scrollto a" href="#services">Our Services</a>
-        </li>
-        <li>
-        <a class="nav-link scrollto a"href="#about_us">About Us</a>
-        </li>
-      </ul>
-  
-      <ul class="nav-links">
-        <li>
-          <a class="nav-link scrollto active" href="SignIn/index.html">Log In</a>
-        </li>
-        <li>
-          <a href="SignUp/index.html" class="btn-get-started a">Get Started</a>
-        </li>
-      </ul>
-      </nav>
-    </div>
+  <body> 
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"> <img src="Images/Group 26.svg"> </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Our Services</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="SignIn/index.html" id="signup" class="navbar__links">Login</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="SignUP/index.html" class="button navbar__links" id="signup">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+       
 
     <!-- Hero Section -->
     <div class="hero" id="home">
@@ -95,7 +96,7 @@
       <div id="recycle" class="recycle-area">
         <div class="left-float1">
           <img class="recycle_bulb" src="Images/Recycle_Light_Bulb 4.svg" alt="">
-          <h1 id="environment" >For a safer environment</h1>
+          <h1 id="environment" class="h1-text">For a safer environment</h1>
           <p class="h2-text">Join our team of partners to say no to plastic waste</p>
           <p><a class="join-now" href="#">Join Now</a></p>
         </div>
@@ -169,55 +170,52 @@
 </section>
 
     <!-- Footer Section -->
-  <section>
-    <div class="footer__container">
-      <div class="footer__logo">
-        <a href="#" id="footer__logo"><img src="Images/Group 26.svg" alt=""></a>
-      </div>
-      <div class="footer__links">
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h6>About Us</h6> 
-          </div>
-          <div class="footer__link--items">
-            <h6>Contact Us</h6>
-          </div>
-          
-          <div class="footer__link--items">
-            <h6>FAQ</h6>
-          </div>
-          <div class="footer__link--items">
-            <h6>Our Patners</h6>
-          </div>
+    <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h4>About Us</h4>
+        </div>
+        <div class="footer__link--items">
+          <h4>Contact Us</h4> 
         </div>
       </div>
-      <section class="social__media">
-        <div class="social__media--wrap">
-          <div class="social__icons">
-            <p class="follow_us">Follow us </p>
-            <a href="#" class="social__icon--link" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </div> 
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h4>FAQS</h4> 
         </div>
-      </section>
+        <div class="footer__link--items">
+          <h4>Our Patners</h4> 
+        </div>
+      </div>
     </div>
-    <div>
-      <p class="website__rights">© eRecycle 2021. All rights reserved</p>
-    </div>
-      </section>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo"><img src="Images/Group 26.svg" alt=""></a>
+        </div>
+        <p class="website__rights">© eRecycle 2021. All rights reserved</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+  </div>  
     
 
     <script src="script.js"></script>
